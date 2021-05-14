@@ -26,11 +26,17 @@ JSON Schema предлагает нам инструмент валидации 
 #### Шаг 1. Добавить зависимость
 
 ```groovy
+
 dependencies {
+    
     testImplementation 'io.rest-assured:rest-assured:4.3.0'
+    
     testImplementation 'io.rest-assured:json-schema-validator:4.3.0'
+    
     testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
+    
 }
+
 ```
 
 #### Шаг 2. Сохраните схему в ресурсах
